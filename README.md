@@ -3,8 +3,9 @@
 <!-- Uncomment the following line after replacing placeholders -->
 [![Tests](https://github.com/ifvlaboratory/ScoopBucket/actions/workflows/ci.yml/badge.svg)](https://github.com/ifvlaboratory/ScoopBucket/actions/workflows/ci.yml) [![Excavator](https://github.com/ifvlaboratory/ScoopBucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/ifvlaboratory/ScoopBucket/actions/workflows/excavator.yml)
 
-A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.  
-This bucket contains the following types of softwares:  
+A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+
+This bucket contains the following types of softwares:
 
 - Unpopular
 - Beta version
