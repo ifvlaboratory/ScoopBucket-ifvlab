@@ -1,6 +1,6 @@
 {
     "version": "1.1.1",
-    "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability. ",
+    "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
     "homepage": "https://age-encryption.org/",
     "license": "BSD-3-Clause",
     "notes": "",
