@@ -1,8 +1,8 @@
 {
-    "version": "1.6.2",
-    "description": "Hentai@Home",
-    "homepage": "https://e-hentai.org/",
-    "license": "MPL-2.0",
+    "version": "6.21.2",
+    "description": "RandomX, KawPow, CryptoNight and GhostRider unified CPU/GPU miner and RandomX benchmark",
+    "homepage": "https://xmrig.com/",
+    "license": "GPL-3.0-only",
     "notes": "",
     "architecture": {
         "64bit": {
