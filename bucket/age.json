@@ -11,7 +11,7 @@
             "extract_dir": "age"
         }
     },
-    "bin": [["age.exe", "age-keygen.exe"]],
+    "bin": ["age.exe", "age-keygen.exe"],
     "checkver": {
         "url": "https://github.com/FiloSottile/age"
     },

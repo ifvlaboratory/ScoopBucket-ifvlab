@@ -11,7 +11,7 @@
             "extract_dir": "minisign-win64"
         }
     },
-    "bin": [["minisign.exe", "minisign"]],
+    "bin": ["minisign.exe"],
     "checkver": {
         "url": "https://github.com/jedisct1/minisign"
     },
