@@ -20,8 +20,8 @@
         "profile"
     ],
     "checkver": {
-        "url": "https://www.betterbird.eu/index.html",
-        "regex": "Betterbird /([\\d.]+)-([a-z\\d]){4}/"
+        "url": "https://www.betterbird.eu/downloads/index.php",
+        "regex": "Betterbird (([\\d.]+)-([a-z\\d]){4})"
     },
     "autoupdate": {
         "architecture": {
