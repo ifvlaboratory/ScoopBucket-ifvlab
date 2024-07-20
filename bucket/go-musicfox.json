@@ -16,6 +16,10 @@
         }
     },
     "bin": [ [ "musicfox.exe", "go-musicfox" ] ],
+    "env_set": {
+        "MUSICFOX_ROOT": "$dir\\data"
+    },
+    "persist": "data",
     "checkver": {
         "github": "https://github.com/go-musicfox/go-musicfox"
     },
