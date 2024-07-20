@@ -13,10 +13,11 @@
             "hash": "39e70f86895568138ab509d5965e104cbca56dda05ac1925fd7e65a57da7bc40"
         }
     },
+	"persist": ["config.xml"],
     "post_install": [
         "$conf = \"$dir\\config.xml\"",
         "New-Item -ItemType File -Name $conf",
-        "Add-Content -Path $conf -Value \"<?xml version="1.0"?>\"",
+        "Add-Content -Path $conf -Value \"<?xml version=\"1.0\"?>\"",
         "Add-Content -Path $conf -Value \"<ExplorerPlusPlus></ExplorerPlusPlus>\""
     ],
     "bin": "explorer++.exe",
