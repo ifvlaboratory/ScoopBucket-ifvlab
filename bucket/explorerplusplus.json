@@ -14,7 +14,7 @@
         }
     },
     "persist": ["config.xml"],
-    "post_install": [
+    "pre_install": [
         "$conf = \"$dir\\config.xml\"",
         "New-Item -ItemType File -Name $conf",
         "Add-Content -Path $conf -Value \"<?xml version=\"1.0\"?>\"",
