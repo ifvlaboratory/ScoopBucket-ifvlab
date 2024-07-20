@@ -15,10 +15,7 @@
     },
     "persist": ["config.xml"],
     "pre_install": [
-        "$conf = \"$dir\\config.xml\"",
-        "New-Item -ItemType File -Name $conf",
-        "Add-Content -Path $conf -Value \"<?xml version=\"1.0\"?>\"",
-        "Add-Content -Path $conf -Value \"<ExplorerPlusPlus></ExplorerPlusPlus>\""
+        "New-Item -ItemType File -Path $dir -Name \"config.xml\" -Value \"<?xml version=\\\"1.0\\\"?><ExplorerPlusPlus></ExplorerPlusPlus>\""
     ],
     "bin": "explorer++.exe",
     "shortcuts": [
