@@ -1,12 +1,12 @@
 {
-    "version": "115.13.0-bb30",
+    "version": "115.15.0-bb32",
     "description": "A free email application that’s easy to set up and customize.",
     "homepage": "https://www.betterbird.eu",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://www.betterbird.eu/downloads/WindowsPortable/BetterbirdPortable-115.13.0-bb30.en-US.win64.zip",
-            "hash": "5a96ddf90f92ed4b69f17195e0f71cf83740db04d0c846617b236985de8f7ab1"
+            "url": "https://www.betterbird.eu/downloads/WindowsPortable/BetterbirdPortable-115.15.0-bb32.en-US.win64.zip",
+            "hash": "f7399bed9961f0e0416f8b15b8beffd1ff96e51df64ee42158308cd5bd935240"
         }
     },
     "bin": [
