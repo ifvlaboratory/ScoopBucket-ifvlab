@@ -16,8 +16,8 @@ This bucket contains the following types of softwares:
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/ifvlaboratory/ScoopBucket
-scoop install <bucketname>/<manifestname>
+scoop bucket add ifvlab https://github.com/ifvlaboratory/ScoopBucket
+scoop install ifvlab/<manifestname>
 ```
 
 ## How do I contribute new manifests?
