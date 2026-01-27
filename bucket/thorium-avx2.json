@@ -15,9 +15,28 @@
         }
     },
     "bin": [
-        "THORIUM.BAT",
-        "THORIUM_SHELL.BAT"
+        [
+            "bin\\thorium.exe",
+            "thorium",
+            "--user-data-dir=\"$dir\\USER_DATA\" --allow-outdated-plugins --disable-logging --disable-breakpad --disable-encryption --disable-machine-id"
+        ]
     ],
+    "shortcuts": [
+        [
+            "bin\\thorium.exe",
+            "Thorium",
+            "--user-data-dir=\"$dir\\USER_DATA\" --allow-outdated-plugins --disable-logging --disable-breakpad --disable-encryption --disable-machine-id"
+        ]
+    ],
+    "post_install": [
+        "if (!(Test-Path \"$dir\\USER_DATA\\*\") -and (Test-Path \"$env:LocalAppData\\Thorium\\User Data\")) {",
+        "    info '[Portable Mode]: Copying user data...'",
+        "    Copy-Item \"$env:LocalAppData\\Thorium\\User Data\\*\" \"$dir\\USER_DATA\" -Recurse",
+        "}"
+    ],
+    "env_set": {
+        "CHROME_EXECUTABLE": "$dir\\bin\\thorium.exe"
+    },
     "persist": "USER_DATA",
     "checkver": {
         "url": "https://api.github.com/repos/Alex313031/Thorium-Win/releases",
