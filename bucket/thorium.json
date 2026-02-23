@@ -1,5 +1,5 @@
 {
-    "version": "124.0.6367.218",
+    "version": "138.0.7204.303",
     "description": "Chromium fork for Windows named after radioactive element No. 90; Windows builds of https://github.com/Alex313031/Thorium",
     "homepage": "https://thorium.rocks/",
     "license": "BSD-3-Clause",
@@ -10,12 +10,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M124.0.6367.218/Thorium_AVX_124.0.6367.218.zip",
-            "hash": "dd368bbb4d5106856788eeb1eb0a790624413b62d2939211053340c2917e225d"
+            "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/Thorium_AVX_138.0.7204.303.zip",
+            "hash": "170efa41ec9da86a6fa72fe2432a91e5310ba8af3c7c5ea3b5b9c6c1936ac32a"
         },
         "arm64": {
-            "url": "https://github.com/Alex313031/Thorium-WOA/releases/download/M124.0.6367.218/Thorium_ARM64_124.0.6367.218.zip",
-            "hash": "657bca2890f89a9e008839876f898fa010edba1037f8c17d9580982be744388c"
+            "url": "https://github.com/Alex313031/Thorium-WOA/releases/download/M138.0.7204.303/Thorium_ARM64_138.0.7204.303.zip",
+            "hash": "ec8c3d15208df843b6e7f574c9be5a62113ffc5cf5d1287398a407339624df30"
         }
     },
     "bin": [
