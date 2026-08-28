@@ -1,0 +1,31 @@
+{
+    "version": "130.0.6723.174",
+    "description": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat.",
+    "homepage": "https://thorium.rocks/mercury",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M130.0.6723.174/Thorium_AVX2_130.0.6723.174.zip",
+            "hash": "0cdeef8c4f32d9cded5c36e72cb949e305a8fb0b559334ebe626d0aa379364f5"
+        }
+    },
+    "bin": [
+        [
+            "mercury.exe",
+            "Mercury Browser"
+        ]
+    ],
+    "persist": "USER_DATA",
+    "checkver": {
+        "url": "https://api.github.com/repos/Alex313031/Mercury/releases",
+        "jsonpath": "$..tag_name",
+        "regex": "v.([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Alex313031/Mercury/releases/download/v.$version/mercury_$version_win64_AVX2.zip"
+            }
+        }
+    }
+}
